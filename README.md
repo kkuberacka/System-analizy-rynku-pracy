@@ -1,4 +1,4 @@
-# System Analityczny Wskaźników Rynku Pracy
+# System analityczny - Rynek Pracy
 
 Interaktywna aplikacja desktopowa służąca do dynamicznego pobierania, zaawansowanego przetwarzania oraz wielokryterialnej wizualizacji danych makroekonomicznych dotyczących rynku pracy. System integruje się bezpośrednio z globalnym repozytorium **World Bank API**.
 
