@@ -53,15 +53,21 @@ Projekt został w pełni napisany w języku **Python** przy wykorzystaniu wiodą
 git clone [https://github.com/kkuberacka/System-analizy-rynku-pracy.git]
 cd System-analizy-rynku-pracy
 
+---
+
 ## **2. Instalacja wymaganych pakietów**
 Przed uruchomieniem aplikacji upewnij się, że posiadasz zainstalowane niezbędne biblioteki. Wszystkie zewnętrzne zależności można zainstalować automatycznie za pomocą managera pakietów pip poprzez wykonanie poniższego polecenia w terminalu:
 
 pip install pandas numpy matplotlib wbgapi
 
+---
+
 ## **3. Uruchomienie programu**
 Cała aplikacja wraz z interfejsem użytkownika i integracją API znajduje się w jednym pliku skryptu. Aby zainicjalizować system, uruchom plik główny w swoim środowisku terminalowym:
 
 python main.py
+
+---
 
 **## 📝 Źródła i Literatura**
 
