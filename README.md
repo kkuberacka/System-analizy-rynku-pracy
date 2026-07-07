@@ -46,30 +46,21 @@ Projekt został w pełni napisany w języku **Python** przy wykorzystaniu wiodą
 
 ---
 
+
 ## 💻 Instrukcja Uruchomienia
 
-**1. Klonowanie repozytorium**
-```bash
-git clone [https://github.com/kkuberacka/System-analizy-rynku-pracy.git]
-cd System-analizy-rynku-pracy
+### 1. Pobranie projektu z repozytorium
+Otwórz terminal w wybranym folderze i sklonuj projekt komendą: `git clone https://github.com/kkuberacka/System-analizy-rynku-pracy.git` a następnie przejdź do folderu projektu: `cd System-analizy-rynku-pracy`
+
+### 2. Instalacja wymaganych pakietów
+Przed uruchomieniem aplikacji upewnij się, że posiadasz zainstalowane niezbędne biblioteki. Wszystkie zewnętrzne zależności można zainstalować automatycznie za pomocą managera pakietów pip poprzez wykonanie poniższego polecenia w terminalu: `pip install pandas numpy matplotlib wbgapi`
+
+### 3. Uruchomienie programu
+Cała aplikacja wraz z interfejsem użytkownika i integracją API znajduje się w jednym pliku skryptu. Aby zainicjalizować system, uruchom plik główny w swoim środowisku terminalowym: `python main.py`
 
 ---
 
-## **2. Instalacja wymaganych pakietów**
-Przed uruchomieniem aplikacji upewnij się, że posiadasz zainstalowane niezbędne biblioteki. Wszystkie zewnętrzne zależności można zainstalować automatycznie za pomocą managera pakietów pip poprzez wykonanie poniższego polecenia w terminalu:
+## 📝 Źródła i Literatura
 
-pip install pandas numpy matplotlib wbgapi
-
----
-
-## **3. Uruchomienie programu**
-Cała aplikacja wraz z interfejsem użytkownika i integracją API znajduje się w jednym pliku skryptu. Aby zainicjalizować system, uruchom plik główny w swoim środowisku terminalowym:
-
-python main.py
-
----
-
-**## 📝 Źródła i Literatura**
-
-* **Dokumentacja techniczna Banku Światowego:** *"Introducing wbgapi: A new python package for accessing World Bank data"*
-* **Poradnik implementacji:** *"Python: How to use World Bank API (WBGAPI) and Pandas to import data, and draw charts"*
+* **Dokumentacja techniczna Banku Światowego:** [Introducing wbgapi: A new python package for accessing World Bank data](https://towardsdatascience.com/introducing-wbgapi-a-new-python-package-for-accessing-world-bank-data-25b04a95efdd)
+* **Poradnik implementacji:** [Python: How to use World Bank API (WBGAPI) and Pandas to import data, and draw charts](https://datahub.packtpub.com/python-how-to-use-world-bank-api-wbgapi-and-pandas-to-import-data-and-draw-charts/)
